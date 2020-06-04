@@ -25,7 +25,11 @@
     padding-right:10px;
 }
 .macro{
-    margin-top:5px;width:85%;border-radius:5px;padding:5px;display:flex;
+    margin-top:5px;
+    width:85%;
+    border-radius:5px;
+    height: fit-content;
+    display:flex;
 }
 .msj-rta{
     float:right;background:whitesmoke;
@@ -35,9 +39,13 @@
 }
 .frame{
     background:#e0e0de;
-    height:450px;
+    height:90vh;
     overflow:hidden;
     padding:0;
+    padding-top: 200px;
+    margin: 10px;
+    display: flex;
+    
 }
 .frame > div:last-of-type{
     position:absolute;bottom:0;width:100%;display:flex;
@@ -58,6 +66,22 @@ ul {
     flex-direction: column;
     top:0;
     overflow-y:scroll;
+}
+
+body{
+    background: linear-gradient(rgb(127, 163, 197), rgb(0, 0, 0));
+    height: 100vh;
+    overflow: hidden;
+}
+
+.font{
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
 }
 .msj:before{
     width: 0;
