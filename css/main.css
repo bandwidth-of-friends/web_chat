@@ -55,7 +55,7 @@ a:focus {
 
 a:hover {
 	text-decoration: none;
-  color: blue;
+  color: rgb(4, 4, 70);
 }
 
 /*---------------------------------------------*/
@@ -232,7 +232,7 @@ iframe {
   font-size: 15px;
   color: #1b3815;
   line-height: 1.2;
-
+  opacity: 1;
   position: relative;
   display: block;
   width: 100%;
@@ -310,7 +310,7 @@ iframe {
 }
 
 .login100-form-btn:hover {
-  background-color: chartreuse;
+  background-color:rgb(44, 80, 8);
 }
 
 
@@ -390,4 +390,8 @@ iframe {
     padding-left: 15px;
     padding-right: 15px;
   }
+}
+input::-webkit-input-placeholder {
+  color: black; /*Change the placeholder color*/
+  opacity: 0.5; /*Change the opacity between 0 and 1*/
 }
