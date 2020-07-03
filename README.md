@@ -9,4 +9,4 @@ npm run dev
 Go to localhost:3000
 ```
 
-## link : https://dashboard.heroku.com/apps/webchat-bandwidth-of-friends/deploy/github
+## link : https://webchat-bandwidth-of-friends.herokuapp.com/
