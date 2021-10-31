@@ -46,7 +46,12 @@ chatForm.addEventListener('submit', e => {
 // Output message to DOM
 function outputMessage(message) {
   const div = document.createElement('div');
-  div.classList.add('message');
+  if (message.username===username){
+    // if message is from user itself show different color
+    div.classList.add('message','active_user');
+  } else {
+    div.classList.add('message','other_user');
+  }
   div.innerHTML = `<p class="meta">${message.username} <span>${message.time}</span></p>
   <p class="text">
     ${message.text}
